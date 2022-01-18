@@ -1,0 +1,27 @@
+{
+  "name": "simple-number-input-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc && node esbuild.js",
+    "package": "npm run clean && npm run build",
+    "start": "http-server . -c-1"
+  },
+  "keywords": [],
+  "author": "Bing Qiao <bqiaodev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "simple-number-input-react": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.14.11",
+    "esbuild-sass-plugin": "^2.0.3"
+  }
+}
